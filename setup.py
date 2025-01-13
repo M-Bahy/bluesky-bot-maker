@@ -1,12 +1,12 @@
 from setuptools import setup, find_packages
 
 with open("README.md", "r") as f:
-    description = f.read()
+    long_description = f.read()
 
 
 setup(
     name="bahy_bot_maker",
-    version="0.3",
+    version="0.4",
     packages=find_packages(),
     install_requires=[
         "annotated-types==0.7.0",
@@ -66,6 +66,7 @@ setup(
         ],
     },
     author="Bahy",
-    long_description=description,
+    long_description=long_description,
     long_description_content_type="text/markdown",
+    description="A package for creating bots on bluesky",
 )
