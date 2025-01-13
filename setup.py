@@ -1,8 +1,12 @@
 from setuptools import setup, find_packages
 
+with open("README.md", "r") as f:
+    description = f.read()
+
+
 setup(
     name="bahy_bot_maker",
-    version="0.2",
+    version="0.3",
     packages=find_packages(),
     install_requires=[
         "annotated-types==0.7.0",
@@ -61,4 +65,7 @@ setup(
             "bahy_bot_maker=bahy_bot_maker:did_it_work",
         ],
     },
+    author="Bahy",
+    long_description=description,
+    long_description_content_type="text/markdown",
 )
