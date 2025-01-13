@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="bahy_bot_maker",
-    version="0.1",
+    version="0.2",
     packages=find_packages(),
     install_requires=[
         "annotated-types==0.7.0",
@@ -56,4 +56,9 @@ setup(
         "wcwidth==0.2.13",
         "websockets==13.1",
     ],
+    entry_points={
+        "console_scripts": [
+            "bahy_bot_maker=bahy_bot_maker:did_it_work",
+        ],
+    },
 )

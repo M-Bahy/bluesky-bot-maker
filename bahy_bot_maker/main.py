@@ -37,3 +37,10 @@ def activate_bot(username: str, password: str) -> Tuple:
 
     print(f"Hello {profile.display_name} from Bluesky Dot Com !")
     return client, profile
+
+
+def did_it_work() -> None:
+    """
+    Checks if the package was installed successfully
+    """
+    print("Yes, it is working!")
