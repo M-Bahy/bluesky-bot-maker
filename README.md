@@ -1,10 +1,13 @@
 # Bahy Bot Maker
 
-This is a warper for the [BlueSky Python SDK](https://atproto.blue/en/latest/)
+This is a wrapper for the [BlueSky Python SDK](https://atproto.blue/en/latest/)
 
 ⚠️ This package is still under development
 
 ⚠️ It is **HIGHLY** recommended to install this package in a **NEW** python virtual environment to avoid package conflicts
+
+## Download
+- package can be downloadeed from [here](https://pypi.org/project/bahy-bot-maker/)
 
 ## TODO
 - Write a README 😅
